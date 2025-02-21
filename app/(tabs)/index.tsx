@@ -18,7 +18,7 @@ export default function Home() {
       <Text fontSize={20} color="$color">
         Welcome to Tamagui + Expo Router!
       </Text>
-      <Button onPress={handleTap} mt="$4">
+      <Button theme={'dark'} onPress={handleTap} mt="$4">
         Click me {count.toString()}
       </Button>
     </YStack>
